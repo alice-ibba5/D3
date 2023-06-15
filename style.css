@@ -38,7 +38,7 @@ body {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    margin: 15px 10px 125px 125px; 
+    margin: 0px 10px 100px 125px; 
     justify-content: center;
     align-items: center;
     cursor: pointer; 
@@ -112,3 +112,19 @@ body {
       opacity: 1;
       transition: linear 1s, transform 1s;
     }
+
+    .box:hover .child {
+      transform: translateY(10px);
+      }
+
+    .box:hover .pulsante-bottom1 {
+      transform: translateY(-5px);
+      }
+
+    .box:hover .pulsante-bottom2 {
+      transform: translateY(-5px);
+       }
+
+    .box:hover .pulsante-bottom3 {
+      transform: translateY(-5px);
+       }
