@@ -59,7 +59,7 @@ body {
       bottom: 0px;
       margin: 125px 125px 10px 10px; 
       color: black;
-      text-align: justify;
+      text-align: center;
       cursor: pointer;
       opacity: 0;
     }
